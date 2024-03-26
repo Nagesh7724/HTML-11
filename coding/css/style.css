@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background_image {
+    background-image: url(./images/360_F_568525285_CrGJ8Yh1noTyqu6QsocfVeGQGY91E0Jb.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+.main_content {
+    color: antiquewhite;
+    padding: 100px 20px;
+}
