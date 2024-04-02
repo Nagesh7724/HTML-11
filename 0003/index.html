@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img.jpg" type="image/x-icon">
+</head>
+<body>
+    <h1 class="reg">STUDENT REGISTRATION FORM </h1>
+    <div class="login">
+    <form action="main.py">
+        
+        <div>
+            <label for="fn">FIRST NAME:*</label>
+        <input type="text" id="fn" placeholder="Enter your name" required>
+        <label for="ln">LAST NAME:</label>
+        <input type="text" id="ln"  placeholder="Enter your last name" required>
+
+        </div><br>
+<div class="em">
+    <label for="em">EMAIL ID:</label>
+    <input type="email"  id="em" class="em" placeholder="enter your email id">
+</div><br>
+ <div >
+    <label for="frn">FATHER NAME:</label>
+    <input type="text" id="frn" >
+ </div><br>
+ <div >
+    <label for="mrn">MOTHER NAME:</label>
+    <input type="text" id="mrn"  >
+ </div><br>
+
+ <div>
+    <label for="mb">MOBILE:</label>
+    <input type="tel"  id="mb" minlength="10" maxlength="10">
+ </div><br>
+  <div>
+    <label for="g">GENDER:</label>
+    <input type="radio" id="g" name="title"  value="Male"> <label for="g">Male</label>
+    <input type="radio" id="f" name="title" value="Female"> <label for="f">Female</label>
+    <input type="radio" id="O" name="title" value="Others"> <label for="O">Others</label>
+    
+  </div><br>
+  <div>
+    <label for="dob">DATE OF BIRTH:</label>
+    <input type="date" id="dob">
+  </div><br>
+  <div>
+    <label for="cs">COURSES:</label>
+    <select name="choose course" id="cs">
+
+
+        <option value="B.tech">B.tech</option>
+        <option value="Degree">Degree</option>
+        <option value="M.tech">M.tech</option>
+
+    </select>
+    
+  </div><br>
+  <div>
+    <input type="submit">
+    <input type="reset">
+  </div>
+  
+    
+  
+
+        
+    </form>
+</div>
+</body>
+</html>

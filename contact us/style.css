@@ -1,0 +1,49 @@
+body{
+    background-color: #fff;
+    margin: 50px;
+    padding: 0px;
+    width: fit-content;
+    height: 100vh;
+
+}
+.container{
+    margin: 0%;
+    padding: 0%;
+}
+.login-box{
+    width: 150%;
+    height: auto;
+    
+}
+label{
+    display: block;
+    margin-bottom: auto;
+}
+ input[type="text"],input[type="email"],textarea{
+    margin: 1px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+textarea{
+    height: 100px;
+    margin: 1%;
+    border-radius: 1%;
+    padding: 10px;
+    border: 1px solid;
+    width: 88%;
+}
+
+button{
+    display: block;
+    background-color: #007bff;
+    border-radius: 5px;
+    width: 145%;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    margin: auto;
+}
+button:hover{
+    background-color: #0056b3;
+}

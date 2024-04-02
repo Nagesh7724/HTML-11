@@ -1,0 +1,17 @@
+body{
+    background-color: azure;
+}
+.reg{
+    text-align: center;
+    color: blueviolet;
+}
+.login{
+    text-align: center;
+    margin-inline-start: auto;
+    
+}
+label{
+    display: flexbox;
+    
+}
+
