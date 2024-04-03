@@ -1,0 +1,45 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    
+    text-align: center;
+    color: blue;
+    
+}
+img{
+    width: 500px;
+    
+}
+.A{
+    color: black;
+}
+h3{
+    color: mediumslateblue;
+    font-size: x-large;
+}
+.B{
+    color: mediumaquamarine;
+    font-size: xx-large;
+}
+h2{
+   color: blue; 
+}
+.C{
+    font-size: x-large;
+}
+.D{
+    font-size: xx-large;
+}
+pre{
+    font-size: xx-large;
+    text-align: center;
+    font-style: italic;
+    color: deepskyblue;
+    background-color: azure;
+    width: 500px;
+    margin: 200px;
+    padding: 50px;
+}
