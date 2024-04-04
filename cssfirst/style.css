@@ -1,0 +1,24 @@
+body{
+    width: 100px;
+    text-align: center;
+}
+
+P{
+    color: blue;
+    background-color: sandybrown;
+    
+}
+.a{
+    color: aqua;
+    background-color: chartreuse;
+    width: 500px;
+}
+#b{
+    color: black;
+    background-color: cornflowerblue;
+    width: 400px;
+}
+.l{
+    width: 500px;
+    color: black;
+}
