@@ -1,0 +1,16 @@
+body{
+    background: fixed;
+    margin: 50px;
+    
+}
+h3{
+    text-align: center;
+    background-color: darkgray;
+    width: 870px;
+}
+.hello{
+    text-align: end;
+}
+table{
+    width: 850px ;
+}
