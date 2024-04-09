@@ -3,8 +3,10 @@ body{
     margin: 0;
     padding: 0;
     background-color: #f1f1f1;
+   
     background-image: url(./WhatsApp\ Image\ 2024-03-29\ at\ Netflix\ .jpg);
 }
+
 h1{
     text-align: left;
     color: #cc0000;
@@ -13,17 +15,18 @@ h1{
 }
 .container{
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .sign-box{
     width: 300px;
-    padding: 40px;
+    padding: 60px;
     background-color:  black;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 0 auto;
 }
 .sign-box h2{
     margin
@@ -55,10 +58,25 @@ h1{
 .sign-box input[type="submit"]:hover{
     background-color: #cc0000;
 }
+
+.sign-box input[type="submit"].use{
+    background-color: #ccc;
+}
+.sign-box input[type="submit"].use:hover{
+    color: cadetblue;
 }
 .sign-box p{
     text-align: center;
     color: #fff;
+    
+}
+.sign-box p a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.sign-box p a:hover{
+    text-decoration: underline;
+    color: #ccc;
 }
 .sign-box label{
     color: #ccc;
@@ -66,8 +84,23 @@ h1{
 .sign-box h3{
     color: #ccc;
 }
+.sign-box h3 a {
+    text-decoration: none;
+    color: #f1f1f1;
+    
+}
+.sign-box h3 a:hover {
+    text-decoration: underline;
+    
+}
 
 
 .sign-box h5{
     color: #ccc;
+}
+.sign-box h5 a{
+    text-decoration: none;
+}
+.sign-box h5 a:hover{
+    text-decoration: underline;
 }
