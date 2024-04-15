@@ -1,0 +1,66 @@
+body{
+    background-color: aliceblue;
+  box-sizing: border-box;
+  margin: ;
+  padding: 10px;
+  text-align: center;
+
+}
+span{
+    color: crimson;
+}
+
+
+div{
+    background-color: aqua;
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
+    margin: 5px ;
+  
+
+}
+h2{
+    color: #000;
+}
+.A{
+background-color: lightgray;
+}
+.A:hover{
+   
+   color: whitesmoke;
+   cursor: pointer;
+  background: crimson;
+}
+.b{
+    background-color: lightgray;
+}
+.b:hover{
+    color: whitesmoke;
+    cursor: pointer;
+   background: crimson;
+}
+.c{
+    background-color: lightgray;
+    
+}
+.c:hover{
+    color: whitesmoke;
+    cursor: pointer;
+   background: crimson;
+}
+img{
+    width: 300px;
+}
+.d{
+    color: tomato;
+}
+a{
+    text-decoration: none;
+    color: magenta;
+}
+a:hover{
+    text-decoration: underline;
+   
+ color: lightskyblue;
+}
