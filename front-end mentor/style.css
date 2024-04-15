@@ -71,3 +71,12 @@ button:hover {
     cursor: pointer;
     background-color: hsl(75, 94%, 57%);
 }
+a{
+    text-decoration: none;
+    color: lightslategray;
+    font-size: larger;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
