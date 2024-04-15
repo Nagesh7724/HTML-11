@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif;
-    margin: 0;
+    margin: 50px;
     padding: 0;
     background-color: #f1f1f1;
    
@@ -19,6 +19,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .sign-box{
     width: 300px;
@@ -27,6 +28,7 @@ h1{
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     margin: 0 auto;
+    margin-bottom: 300px;
 }
 .sign-box h2{
     margin
