@@ -2,6 +2,7 @@ body{
     background-color: whitesmoke;
     margin: 0;
     padding: 0;
+    
 }
 h1{
     
@@ -9,9 +10,13 @@ h1{
     color: blue;
     
 }
+div{
+    
+}
 img{
     width: 500px;
     float: inline-end;
+    
     
 }
 .A{
